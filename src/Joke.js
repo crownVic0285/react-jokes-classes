@@ -1,7 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Joke.css";
-
-/** A single joke, along with vote up/down buttons. */
 
 function Joke ({ vote, votes, text, id }) {
   function upVote(evt) { vote(id, +1); }
